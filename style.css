@@ -1,0 +1,82 @@
+.contactbtn{
+    color: black;
+    background-color: pink;
+    padding: 10px 10px 10px 10px;
+    border: 3px solid pink;
+    border-radius: 10%;
+    box-shadow: 2px 2px 2px grey;
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-center{
+    width: 90vw;
+    max-width: 1120px;
+}
+
+.nav-headers{
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-headers img{
+    width: 90px;
+}
+
+.nav-btn{
+    font-size: 50px;
+    padding: 0.1px 10px 0.1px 10px;
+    background-color: pink;
+    border: 0px solid pink;
+    border-radius: 10%;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: column;
+  
+   
+}
+
+.nav-link{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--grey-900);
+    letter-spacing: var(--letterSpacing);
+    padding: 1rem 0;
+    border-top: 2px solid grey;
+}
+
+.note {
+    display: flex;
+    align-items:center;
+    padding: 20px 20px 20px 20px;
+    background-color: lightblue;
+    
+}
+
+.content{
+    display: flex;
+   
+}
+
+.logo{
+    width: 10rem;
+    background-color: blue;
+    margin-right: 1rem;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.description{
+    text-shadow: 1px 1px 10px grey;
+}
